@@ -1,8 +1,9 @@
 import ContactList from "./components/ContactList";
+import "./index.css";
 
 function App() {
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="app-container">
       <ContactList />
     </div>
   );
